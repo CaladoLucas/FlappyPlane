@@ -1,19 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
-randomize();
-
-index = random_range(1,3)
-
-if(first_run){
-	instance_create_depth(790,0,0, obj_montanha_cima)
-	instance_create_depth(790,604,0, obj_montanha_baixo)
-	first_run = false;
-} else {
-	instance_create_depth(864,0,0, obj_montanha_cima)
-	instance_create_depth(864,604,0, obj_montanha_baixo)
+if(global.first_run){
+	alarm[0] = room_speed
+	exit;
 }
 
+randomize();
+
+index = random_range(1,1.3)
 
 
+posicao_montanha = random_range(-2,-160)
+
+instance_create_depth(864,posicao_montanha,0, obj_montanha_cima)
+instance_create_depth(864,posicao_montanha+640,0, obj_montanha_baixo)
 
 alarm[0] = room_speed*index

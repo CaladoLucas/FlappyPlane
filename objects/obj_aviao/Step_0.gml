@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(global.first_run)
+exit;
 
+vspeed += 0.2
 
-vspeed += 0.1
-
-if(vspeed >6){
-	vspeed = 6
+if(vspeed > 10){
+	vspeed = 10
 }
 if(y >= 485){
 	game_restart()
