@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Happy_Alley.mp3",
+  "soundFile": "snd_fundo.mp3",
   "duration": 80.24818,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Happy_Alley",
+  "name": "snd_fundo",
   "tags": [],
   "resourceType": "GMSound",
 }

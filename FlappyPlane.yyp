@@ -1,17 +1,23 @@
 {
   "resources": [
+    {"id":{"name":"spr_poof","path":"sprites/spr_poof/spr_poof.yy",},"order":7,},
     {"id":{"name":"spr_montanha_cima","path":"sprites/spr_montanha_cima/spr_montanha_cima.yy",},"order":2,},
-    {"id":{"name":"Happy_Alley","path":"sounds/Happy_Alley/Happy_Alley.yy",},"order":0,},
+    {"id":{"name":"snd_fundo","path":"sounds/snd_fundo/snd_fundo.yy",},"order":0,},
+    {"id":{"name":"sq_inicio","path":"sequences/sq_inicio/sq_inicio.yy",},"order":0,},
     {"id":{"name":"font_padrao","path":"fonts/font_padrao/font_padrao.yy",},"order":0,},
+    {"id":{"name":"obj_inicio","path":"objects/obj_inicio/obj_inicio.yy",},"order":6,},
     {"id":{"name":"obj_level","path":"objects/obj_level/obj_level.yy",},"order":4,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":4,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},
     {"id":{"name":"spr_montanha_baixo","path":"sprites/spr_montanha_baixo/spr_montanha_baixo.yy",},"order":1,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":3,},
+    {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},"order":6,},
     {"id":{"name":"obj_montanha_cima","path":"objects/obj_montanha_cima/obj_montanha_cima.yy",},"order":2,},
     {"id":{"name":"levelup","path":"sounds/levelup/levelup.yy",},"order":1,},
+    {"id":{"name":"obj_poof","path":"objects/obj_poof/obj_poof.yy",},"order":5,},
     {"id":{"name":"spr_aviao","path":"sprites/spr_aviao/spr_aviao.yy",},"order":0,},
     {"id":{"name":"obj_montanha_baixo","path":"objects/obj_montanha_baixo/obj_montanha_baixo.yy",},"order":3,},
+    {"id":{"name":"Room_inicio","path":"rooms/Room_inicio/Room_inicio.yy",},"order":1,},
     {"id":{"name":"obj_aviao","path":"objects/obj_aviao/obj_aviao.yy",},"order":0,},
     {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -35,6 +41,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room_inicio","path":"rooms/Room_inicio/Room_inicio.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
@@ -63,7 +70,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"PixelGameFont.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.6.0.23",
   },
   "resourceVersion": "1.5",
   "name": "FlappyPlane",

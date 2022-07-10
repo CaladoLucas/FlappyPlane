@@ -1,13 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.first_run){
-	alarm[0] = room_speed
-	exit;
-}
 
 randomize();
 
-index = random_range(1,1.3)
+var tempo_minimo = 1/(1+(global.level*0.1))
+
+index = random_range(tempo_minimo,1.3)
 
 
 posicao_montanha = random_range(-2,-160)
